@@ -1,6 +1,5 @@
 from pathlib import Path
-from strongarm.macho import MachoParser, MachoBinary, MachoAnalyzer
-from strongarm.macho.macho_binary_writer import MachoBinaryWriter
+from strongarm.macho import MachoParser, MachoBinary
 
 # Load an input file
 macho_parser = MachoParser(Path() / "TestApp")
